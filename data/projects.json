@@ -1,7 +1,7 @@
 [
     {
         "title": "EduCare",
-        "image": "EduCare.webp",
+        "image": "EduCare.png",
         "description": "Designed and implemented a web app that manages institute's everything from students' attendance to result management and so on. It also keeps track of the students' progress and provides a platform for the teachers to communicate with the students and the guardians.",
         "date": "2022",
         "github": "https://github.com/shahriar-raj/CSE_216-EduCare-Database-Sessional-Project",
