@@ -1,0 +1,125 @@
+[
+    {
+        "name": "Languages",
+        "stacks": [
+            {
+                "name": "C",
+                "badge": "https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&badge=c&badgeColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "C++",
+                "badge": "https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&badge=c%2B%2B&badgeColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "Java",
+                "badge": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "Javascript",
+                "badge": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "Assembly",
+                "badge": "https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "Bash",
+                "badge": "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Backend",
+        "stacks": [
+            {
+                "name": "NodeJS",
+                "badge": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Frontend",
+        "stacks": [
+            {
+                "name": "ReactJs",
+                "badge": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "EJS",
+                "badge": "https://img.shields.io/badge/ejs-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Data Systems",
+        "stacks": [
+            {
+                "name": "PostgreSQL",
+                "badge": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            },
+            {
+                "name": "OracleDB",
+                "badge": "https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&logo=oracle&logoColor=white",
+                "projects": [
+                    "https://github.com/",
+                    "https://github.com/"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tools",
+        "stacks": [
+            {
+                "name": "Git",
+                "badge": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+                "projects": []
+            },
+            {
+                "name": "Docker",
+                "badge": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+                "projects": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "EduCare",
+        "image": "Educare.webp",
+        "description": "Designed and implemented a web app that manages institute's everything from students' attendance to result management and so on. It also keeps track of the students' progress and provides a platform for the teachers to communicate with the students and the guardians.",
+        "date": "2022",
+        "github": "https://github.com/shahriar-raj/CSE_216-EduCare-Database-Sessional-Project",
+        "stacks": [
+            "React",
+            "Nodejs",
+            "OracleDB"
+        ]
+    },
+    {
+        "title": "PawCare",
+        "image": "PawCare.png",
+        "description": "Built an online PetCare Management System. It provides a platform for pet owners to find the best pet care services in their locality. It also provides a platform for pet care service providers to reach out to their customers. It also provides adoption services for pets.",
+        "date": "2023",
+        "github": "https://github.com/shahriar-raj/PawCare_FrontEnd",
+        "stacks": [
+            "Nodejs",
+            "React",
+            "PostgreSQL"
+        ]
+    },
+    {
+        "title": "C Compiler",
+        "image": "compiler.jpg",
+        "description": "Built a compiler from scratch for a subset of C language.",
+        "date": "2023",
+        "github": "https://github.com/shahriar-raj/CSE_310-Compiler-Sessional",
+        "stacks": [
+            "Bison",
+            "Yacc",
+            "C"
+        ]
+    }
+]
