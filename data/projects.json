@@ -25,7 +25,7 @@
     },
     {
         "title": "C Compiler",
-        "image": "compiler.jpg",
+        "image": "compiler.png",
         "description": "Built a compiler from scratch for a subset of C language.",
         "date": "2023",
         "github": "https://github.com/shahriar-raj/CSE_310-Compiler-Sessional",
