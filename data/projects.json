@@ -24,6 +24,18 @@
         ]
     },
     {
+        "title": "Player Management System (javaFX Project)",
+        "image": "Player_Manage.png",
+        "description": "Developed a small scale software using javafx and screenbuilder. Used java socket programming in the software.",
+        "date": "2021",
+        "github": "https://github.com/shahriar-raj/CSE_108-Object-Oriented-Programming-Language-Sessional/tree/main/Term Project",
+        "stacks": [
+            "JavaFX",
+            "Java",
+            "ScreenBuilder"
+        ]
+    },
+    {
         "title": "C Compiler",
         "image": "compiler.png",
         "description": "Built a compiler from scratch for a subset of C language.",
