@@ -1,11 +1,13 @@
 [
     {
-        "title": "",
+        "title": "Enhancing Road Damage Detection Through Transfer Learning and HCI-Centric Design",
         "subtitle": "",
-        "coauthors": [
-        ],
+        "coauthors": [],
         "keywords": [
+            "RDD",
+            "Transfer Learning",
+            "HCI"
         ],
-        "description": ""
+        "description": "Developed an automated road damage detection system using transfer learning on a locally annotated dataset, tailored for Bangladeshi conditions.  Integrated global Road Damage Dataset (RDD) standards and user feedback to improve detection accuracy and relevance. Incorporated Human-Computer Interaction (HCI) principles, ensuring user trust, transparency, and practical deployment potential."
     }
 ]
