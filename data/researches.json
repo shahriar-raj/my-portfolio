@@ -2,7 +2,10 @@
     {
         "title": "Enhancing Road Damage Detection Through Transfer Learning and HCI-Centric Design",
         "subtitle": "",
-        "coauthors": [],
+        "coauthors": [
+            "Asad Bin Shahid Mahin",
+            "Dr. Sadia Sharmin"
+        ],
         "keywords": [
             "RDD",
             "Transfer Learning",
