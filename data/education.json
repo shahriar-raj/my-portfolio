@@ -2,10 +2,10 @@
     {
         "institution": "Bangladesh University of Engineering and Technology",
         "degree": "B.Sc. in Computer Science and Engineering",
-        "duration" : "February 2020 - February 2025 (Expected)",
-        "gpa" : "",
-        "description" : "",
-        "courses" : [
+        "duration": "February 2020 - March 2025",
+        "gpa": "",
+        "description": "",
+        "courses": [
             "CSE 103 - Discrete Mathematics",
             "CSE 203 - Data Structure and Algorithms",
             "CSE 305 - Computer Architecture",
@@ -21,17 +21,18 @@
             "MATH 245 - Statistics and Probability",
             "MATH 247 - Linear Algebra"
         ]
-    },{
+    },
+    {
         "institution": "Notre Dame College, Dhaka",
         "degree": "Higher Secondary Certificate (HSC)",
-        "duration" : "2019",
-        "gpa" : "GPA: 5.00/5.00",
-        "description" : "Received board scholarship."
-    },{
+        "duration": "2019",
+        "gpa": "GPA: 5.00/5.00",
+        "description": "Received board scholarship."
+    },
+    {
         "institution": "Saint Joseph Higher Secondary School, Dhaka",
-        "degree" : "Secondary School Certificate (SSC)",
-        "duration" : "2017",
-        "gpa" : "GPA: 5.00/5.00"
+        "degree": "Secondary School Certificate (SSC)",
+        "duration": "2017",
+        "gpa": "GPA: 5.00/5.00"
     }
 ]
-
