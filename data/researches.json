@@ -12,5 +12,18 @@
             "HCI"
         ],
         "description": "Developed an automated road damage detection system using transfer learning on a locally annotated dataset, tailored for Bangladeshi conditions.  Integrated global Road Damage Dataset (RDD) standards and user feedback to improve detection accuracy and relevance. Incorporated Human-Computer Interaction (HCI) principles, ensuring user trust, transparency, and practical deployment potential."
+    },
+    {
+        "title": "Skin Lesion Classification Using Deep Convolutional Neural Network",
+        "subtitle": "",
+        "coauthors": [
+            "Abrar Mahmud"
+        ],
+        "keywords": [
+            "Skin Lesion",
+            "CNN",
+            "InceptionResNetV2"
+        ],
+        "description": "Utilizing a base paper, which used ResNet50, DenseNet201, and Inception V3 with additional layers to classify 7 types of skin lesions with accuracy 86.91%. We achieved a 89.44% accuracy by using InceptionResNetV2."
     }
 ]
