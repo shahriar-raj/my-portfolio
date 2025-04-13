@@ -124,6 +124,21 @@
                 "name": "Figma",
                 "badge": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
                 "projects": []
+            },
+            {
+                "name": "AWS",
+                "badge": "https://img.shields.io/badge/aws-%23F24E1E.svg?style=for-the-badge&logo=aws&logoColor=white",
+                "projects": []
+            },
+            {
+                "name": "Firebase",
+                "badge": "https://img.shields.io/badge/firebase-%23F24E1E.svg?style=for-the-badge&logo=firebase&logoColor=white",
+                "projects": []
+            },
+            {
+                "name": "Azure",
+                "badge": "https://img.shields.io/badge/azure-%23F24E1E.svg?style=for-the-badge&logo=azure&logoColor=white",
+                "projects": []
             }
         ]
     }
