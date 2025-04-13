@@ -127,7 +127,7 @@
             },
             {
                 "name": "AWS",
-                "badge": "https://img.shields.io/badge/aws-%23F24E1E.svg?style=for-the-badge&logo=aws&logoColor=white",
+                "badge": "https://img.shields.io/badge/aws-%23F05033.svg?style=for-the-badge&logo=aws&logoColor=white",
                 "projects": []
             },
             {
@@ -137,7 +137,7 @@
             },
             {
                 "name": "Azure",
-                "badge": "https://img.shields.io/badge/azure-%23F24E1E.svg?style=for-the-badge&logo=azure&logoColor=white",
+                "badge": "https://img.shields.io/badge/azure-%230db7ed.svg?style=for-the-badge&logo=azure&logoColor=white",
                 "projects": []
             }
         ]
