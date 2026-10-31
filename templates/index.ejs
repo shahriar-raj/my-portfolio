@@ -64,6 +64,10 @@
           </li>
           
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
@@ -93,6 +97,11 @@
         - #EDUCATION
       -->
       <%- include('./education.ejs', {education: education}) %>
+
+      <!--
+        - #EXPERIENCE
+      -->
+      <%- include('./experience.ejs', {experiences: experiences}) %>
 
       <!--
         - #PROJECTS
