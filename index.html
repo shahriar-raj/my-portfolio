@@ -38,79 +38,80 @@
     -->
 
     <aside class="sidebar" data-sidebar>
-    <div class="sidebar-info">
-      <figure class="avatar-box">
-        <img src=https://avatars.githubusercontent.com/u/65486883?v=4 alt="Shahriar Raj" width="80">
-      </figure>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src=https://avatars.githubusercontent.com/u/65486883?v=4 alt="Shahriar Raj" width="80">
+        </figure>
 
-      <div class="info-content">
-        <h1 class="name" title=Shahriar Raj>Shahriar Raj</h1>
-        <!-- <p class="title">
+        <div class="info-content">
+          <h1 class="name" title=Shahriar Raj>Shahriar Raj</h1>
+          <!-- <p class="title">
           Software Engineer, Chaldal
           <br>
           2023 - Present
         </p> -->
-        
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <ul class="social-list">
+
+        <li class="social-item">
+          <a href=https://bd.linkedin.com/in/shahriar-raj-724638213 class="social-link" target="_blank"
+            rel="noopener noreferrer">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+
+
+        <li class="social-item">
+          <a href=https://github.com/shahriar-raj class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+
+
+
+
+      </ul>
       </div>
 
-      <button class="info_more-btn" data-sidebar-btn>
-        <span>Show Contacts</span>
-        <ion-icon name="chevron-down"></ion-icon>
-      </button>
-    </div>
-      <ul class="social-list">
-        
-            <li class="social-item">
-                <a href=https://bd.linkedin.com/in/shahriar-raj-724638213 class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
-        
+      <div class="separator"></div>
+      <div class="sidebar-info_more">
+        <ul class="contacts-list">
 
-        
-            <li class="social-item">
-                <a href=https://github.com/shahriar-raj class="social-link" target="_blank" rel="noopener noreferrer">
-                  <ion-icon name="logo-github"></ion-icon>
-                </a>
-              </li>
-        
 
-        
-        
-        
-      </ul>
-    </div>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:shahriarraj121@gmail.com" class="contact-link">shahriarraj121@gmail.com</a>
+            </div>
+          </li>
 
-    <div class="separator"></div>
-    <div class="sidebar-info_more">
-      <ul class="contacts-list">
 
-        
-            <li class="contact-item">
-                <div class="icon-box">
-                  <ion-icon name="mail-outline"></ion-icon>
-                </div>
-                <div class="contact-info">
-                  <p class="contact-title">Email</p>
-                  <a href="mailto:shahriarraj121@gmail.com" class="contact-link">shahriarraj121@gmail.com</a>
-                </div>
-              </li>
-        
-        
 
-        
-            <li class="contact-item">
-                <div class="icon-box">
-                  <ion-icon name="location-outline"></ion-icon>
-                </div>
-                <div class="contact-info">
-                  <p class="contact-title">Location</p>
-                  <address>Dhaka, Bangladesh</address>
-                </div>
-              </li>
-        
-      </ul>
-  </aside>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Dhaka, Bangladesh</address>
+            </div>
+          </li>
+
+        </ul>
+    </aside>
 
     <!--
       - #main-content
@@ -131,11 +132,15 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Skills</button>
           </li>
-          
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Education</button>
           </li>
-          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
@@ -156,35 +161,42 @@
 
       <article class="about active" data-page="about">
 
-    <header>
-      <h2 class="h2 article-title">About me</h2>
-    </header>
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-    <section class="about-text">
-         
-            <p>Hello, I am Shahriar Raj. I am a lecturer at the Department of Computer Science and Engineering, University of Asia Pacific. I have completed my undergraduate studies from Bangladesh University of Engineering &amp; Technology(BUET) in March 2025. Here I completed my Bachelor of Science degree in Computer Science &amp; Engineering. I am also currently doing my MSc in CSE.</p>
-         
-            <p>I can describe my university life as a balance between academics and extra curricular activities. I have been a part of IEEE Computer Society BUET Student Branch for the last 3 years. I served as the General Secretary of the society in 2023 and the Chairperson in 2024.</p>
-         
-            <p>In terms of technology and framework, I am very comfortable with C++ and Java and have done some projects with them. I am also very proficient in Nodejs with PostgreSQL.</p>
-         
-            <p>In my college life and also in my university life I organized and volunteered in many national level events. In 2024, I was part of the organizing committee of BUET CSE Fest 2024.</p>
-         
-            <p>And apart from all these tech stuffs I really love traveling.</p>
-        
-  </section>
-    <div class="modal-container" data-modal-container>
+        <section class="about-text">
 
-      <div class="overlay" data-overlay></div>
+          <p>Hello, I am Shahriar Raj. I am a lecturer at the Department of Computer Science and Engineering, University
+            of Asia Pacific. I have completed my undergraduate studies from Bangladesh University of Engineering &amp;
+            Technology(BUET) in March 2025. Here I completed my Bachelor of Science degree in Computer Science &amp;
+            Engineering. I am also currently doing my MSc in CSE.</p>
 
-      <section class="testimonials-modal">
-        <button class="modal-close-btn" data-modal-close-btn>
-          <ion-icon name="close-outline"></ion-icon>
-        </button>
-      </section>
+          <p>I can describe my university life as a balance between academics and extra curricular activities. I have
+            been a part of IEEE Computer Society BUET Student Branch for the last 3 years. I served as the General
+            Secretary of the society in 2023 and the Chairperson in 2024.</p>
 
-    </div>
-  </article>
+          <p>In terms of technology and framework, I am very comfortable with C++ and Java and have done some projects
+            with them. I am also very proficient in Nodejs with PostgreSQL.</p>
+
+          <p>In my college life and also in my university life I organized and volunteered in many national level
+            events. In 2024, I was part of the organizing committee of BUET CSE Fest 2024.</p>
+
+          <p>And apart from all these tech stuffs I really love traveling.</p>
+
+        </section>
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+      </article>
 
       <!--
         - #ABOUT
@@ -192,671 +204,733 @@
 
       <article class="skills" data-page="skills">
 
-  <header>
-    <h2 class="h2 article-title">Skills</h2>
-  </header>
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
 
-  
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="code-slash-outline"></ion-icon>
-        </div>
-        <h3 class="h3">
-          Languages
-        </h3>
-      </div>
 
-      <div >
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >C</span> -->
-                <img alt=C style="float: left;" src=https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&amp;badge=c&amp;badgeColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">
+              Languages
+            </h3>
           </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >C++</span> -->
-                <img alt=C++ style="float: left;" src=https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;badge=c%2B%2B&amp;badgeColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Java</span> -->
-                <img alt=Java style="float: left;" src=https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Python</span> -->
-                <img alt=Python style="float: left;" src=https://img.shields.io/badge/python-%23121011.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Javascript</span> -->
-                <img alt=Javascript style="float: left;" src=https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Assembly</span> -->
-                <img alt=Assembly style="float: left;" src=https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&amp;logo=assemblyscript&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Bash</span> -->
-                <img alt=Bash style="float: left;" src=https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-      </div>
-    </section>
-    <br/>
-    <br/>
-    <div>  </div>
-    <hr>
-    <br/>
-    
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="code-slash-outline"></ion-icon>
-        </div>
-        <h3 class="h3">
-          Backend
-        </h3>
-      </div>
 
-      <div >
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >NodeJS</span> -->
-                <img alt=NodeJS style="float: left;" src=https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-      </div>
-    </section>
-    <br/>
-    <br/>
-    <div>  </div>
-    <hr>
-    <br/>
-    
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="code-slash-outline"></ion-icon>
-        </div>
-        <h3 class="h3">
-          Frontend
-        </h3>
-      </div>
+          <div>
 
-      <div >
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >ReactJs</span> -->
-                <img alt=ReactJs style="float: left;" src=https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB />
-                <!-- 
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >C</span> -->
+              <img alt=C style="float: left;"
+                src=https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&amp;badge=c&amp;badgeColor=white />
+              <!-- 
                   <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
                   <a style="float: left;" href=https://github.com/ > 📎 </a>  
                  -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >EJS</span> -->
-                <img alt=EJS style="float: left;" src=https://img.shields.io/badge/ejs-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-      </div>
-    </section>
-    <br/>
-    <br/>
-    <div>  </div>
-    <hr>
-    <br/>
-    
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="code-slash-outline"></ion-icon>
-        </div>
-        <h3 class="h3">
-          Data Systems
-        </h3>
-      </div>
 
-      <div >
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >PostgreSQL</span> -->
-                <img alt=PostgreSQL style="float: left;" src=https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >OracleDB</span> -->
-                <img alt=OracleDB style="float: left;" src=https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&amp;logo=oracle&amp;logoColor=white />
-                <!-- 
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                
-                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
-                 -->
-                
-          </div>
-          
-        
-      </div>
-    </section>
-    <br/>
-    <br/>
-    <div>  </div>
-    <hr>
-    <br/>
-    
-    <section class="timeline">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <ion-icon name="code-slash-outline"></ion-icon>
-        </div>
-        <h3 class="h3">
-          Tools
-        </h3>
-      </div>
+            </div>
 
-      <div >
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Git</span> -->
-                <img alt=Git style="float: left;" src=https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white />
-                <!--  -->
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >C++</span> -->
+              <img alt=C++ style="float: left;"
+                src=https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;badge=c%2B%2B&amp;badgeColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Docker</span> -->
-                <img alt=Docker style="float: left;" src=https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white />
-                <!--  -->
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Java</span> -->
+              <img alt=Java style="float: left;"
+                src=https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Figma</span> -->
-                <img alt=Figma style="float: left;" src=https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&amp;logo=figma&amp;logoColor=white />
-                <!--  -->
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Python</span> -->
+              <img alt=Python style="float: left;"
+                src=https://img.shields.io/badge/python-%23121011.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >AWS</span> -->
-                <img alt=AWS style="float: left;" src=https://img.shields.io/badge/aws-%23F05033.svg?style=for-the-badge&amp;logo=aws&amp;logoColor=white />
-                <!--  -->
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Javascript</span> -->
+              <img alt=Javascript style="float: left;"
+                src=https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Firebase</span> -->
-                <img alt=Firebase style="float: left;" src=https://img.shields.io/badge/firebase-%23F24E1E.svg?style=for-the-badge&amp;logo=firebase&amp;logoColor=white />
-                <!--  -->
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Assembly</span> -->
+              <img alt=Assembly style="float: left;"
+                src=https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&amp;logo=assemblyscript&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
-          </div>
-          
-        
-          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
-                <!-- <span class="tags" style="font-size: 20px; float: left;" >Azure</span> -->
-                <img alt=Azure style="float: left;" src=https://img.shields.io/badge/azure-%230db7ed.svg?style=for-the-badge&amp;logo=azure&amp;logoColor=white />
-                <!--  -->
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Bash</span> -->
+              <img alt=Bash style="float: left;"
+                src=https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
                 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
           </div>
-          
-        
-      </div>
-    </section>
-    <br/>
-    <br/>
-    <div>  </div>
-    <hr>
-    <br/>
-    
-</article>
-      
+        </section>
+        <br />
+        <br />
+        <div> </div>
+        <hr>
+        <br />
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">
+              Backend
+            </h3>
+          </div>
+
+          <div>
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >NodeJS</span> -->
+              <img alt=NodeJS style="float: left;"
+                src=https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+          </div>
+        </section>
+        <br />
+        <br />
+        <div> </div>
+        <hr>
+        <br />
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">
+              Frontend
+            </h3>
+          </div>
+
+          <div>
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >ReactJs</span> -->
+              <img alt=ReactJs style="float: left;"
+                src=https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >EJS</span> -->
+              <img alt=EJS style="float: left;"
+                src=https://img.shields.io/badge/ejs-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+          </div>
+        </section>
+        <br />
+        <br />
+        <div> </div>
+        <hr>
+        <br />
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">
+              Data Systems
+            </h3>
+          </div>
+
+          <div>
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >PostgreSQL</span> -->
+              <img alt=PostgreSQL style="float: left;"
+                src=https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >OracleDB</span> -->
+              <img alt=OracleDB style="float: left;"
+                src=https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&amp;logo=oracle&amp;logoColor=white />
+              <!-- 
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                
+                  <a style="float: left;" href=https://github.com/ > 📎 </a>  
+                 -->
+
+            </div>
+
+
+          </div>
+        </section>
+        <br />
+        <br />
+        <div> </div>
+        <hr>
+        <br />
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">
+              Tools
+            </h3>
+          </div>
+
+          <div>
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Git</span> -->
+              <img alt=Git style="float: left;"
+                src=https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Docker</span> -->
+              <img alt=Docker style="float: left;"
+                src=https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&amp;logo=docker&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Figma</span> -->
+              <img alt=Figma style="float: left;"
+                src=https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&amp;logo=figma&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >AWS</span> -->
+              <img alt=AWS style="float: left;"
+                src=https://img.shields.io/badge/aws-%23F05033.svg?style=for-the-badge&amp;logo=aws&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Firebase</span> -->
+              <img alt=Firebase style="float: left;"
+                src=https://img.shields.io/badge/firebase-%23F24E1E.svg?style=for-the-badge&amp;logo=firebase&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+            <div style="float: left; margin-right: 8px; margin-bottom: 8px;">
+              <!-- <span class="tags" style="font-size: 20px; float: left;" >Azure</span> -->
+              <img alt=Azure style="float: left;"
+                src=https://img.shields.io/badge/azure-%230db7ed.svg?style=for-the-badge&amp;logo=azure&amp;logoColor=white />
+              <!--  -->
+
+            </div>
+
+
+          </div>
+        </section>
+        <br />
+        <br />
+        <div> </div>
+        <hr>
+        <br />
+
+      </article>
+
       <!--
         - #EDUCATION
       -->
       <article class="education" data-page="education">
 
-    <header>
-        <h2 class="h2 article-title">Education</h2>
-    </header>
+        <header>
+          <h2 class="h2 article-title">Education</h2>
+        </header>
 
-    <section class="timeline">
-      <ol class="timeline-list">
+        <section class="timeline">
+          <ol class="timeline-list">
 
-        
-          <li class="timeline-item">
-            <div class="education-header">
-              <h4 class="h4 timeline-item-title">Bangladesh University of Engineering and Technology</h4>
-              <span>February 2020 - March 2025</span>
-            </div>
-            <div class="education-header">
-              <h5 class="h5 timeline-item-subtitle">B.Sc. in Computer Science and Engineering</h5>
-              <span></span>
-            </div>
-            <p class="timeline-text">
-              
-            </p>
-            
+
+            <li class="timeline-item">
+              <div class="education-header">
+                <h4 class="h4 timeline-item-title">Bangladesh University of Engineering and Technology</h4>
+                <span>February 2020 - March 2025</span>
+              </div>
+              <div class="education-header">
+                <h5 class="h5 timeline-item-subtitle">B.Sc. in Computer Science and Engineering</h5>
+                <span></span>
+              </div>
+              <p class="timeline-text">
+
+              </p>
+
               <div class="multicol-list">
-                <div class="blog-text" >Notable Courses</div>
+                <div class="blog-text">Notable Courses</div>
                 <ul>
-                  
-                    <li><p class="timeline-text">CSE 103 - Discrete Mathematics</p></li>
-                  
-                    <li><p class="timeline-text">CSE 203 - Data Structure and Algorithms</p></li>
-                  
-                    <li><p class="timeline-text">CSE 305 - Computer Architecture</p></li>
-                  
-                    <li><p class="timeline-text">CSE 307 - Software Engineering</p></li>
-                  
-                    <li><p class="timeline-text">CSE 309 - Compiler Design</p></li>
-                  
-                    <li><p class="timeline-text">CSE 313 - Operating Systems</p></li>
-                  
-                    <li><p class="timeline-text">CSE 317 - Artificial Intelligence</p></li>
-                  
-                    <li><p class="timeline-text">CSE 321 - Computer Networks</p></li>
-                  
-                    <li><p class="timeline-text">CSE 405 - Computer Security</p></li>
-                  
-                    <li><p class="timeline-text">CSE 409 - Computer Graphics</p></li>
-                  
-                    <li><p class="timeline-text">CSE 463 - Introduction to Bioinformatics</p></li>
-                  
-                    <li><p class="timeline-text">CSE 471 - Machine Learning</p></li>
-                  
-                    <li><p class="timeline-text">MATH 245 - Statistics and Probability</p></li>
-                  
-                    <li><p class="timeline-text">MATH 247 - Linear Algebra</p></li>
-                  
+
+                  <li>
+                    <p class="timeline-text">CSE 103 - Discrete Mathematics</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 203 - Data Structure and Algorithms</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 305 - Computer Architecture</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 307 - Software Engineering</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 309 - Compiler Design</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 313 - Operating Systems</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 317 - Artificial Intelligence</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 321 - Computer Networks</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 405 - Computer Security</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 409 - Computer Graphics</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 463 - Introduction to Bioinformatics</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">CSE 471 - Machine Learning</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">MATH 245 - Statistics and Probability</p>
+                  </li>
+
+                  <li>
+                    <p class="timeline-text">MATH 247 - Linear Algebra</p>
+                  </li>
+
                 </ul>
               </div>
-            
-          </li>
-        
-          <li class="timeline-item">
-            <div class="education-header">
-              <h4 class="h4 timeline-item-title">Notre Dame College, Dhaka</h4>
-              <span>2019</span>
-            </div>
-            <div class="education-header">
-              <h5 class="h5 timeline-item-subtitle">Higher Secondary Certificate (HSC)</h5>
-              <span>GPA: 5.00/5.00</span>
-            </div>
-            <p class="timeline-text">
-              Received board scholarship.
-            </p>
-            
-          </li>
-        
-          <li class="timeline-item">
-            <div class="education-header">
-              <h4 class="h4 timeline-item-title">Saint Joseph Higher Secondary School, Dhaka</h4>
-              <span>2017</span>
-            </div>
-            <div class="education-header">
-              <h5 class="h5 timeline-item-subtitle">Secondary School Certificate (SSC)</h5>
-              <span>GPA: 5.00/5.00</span>
-            </div>
-            <p class="timeline-text">
-              
-            </p>
-            
-          </li>
-        
-       
-      </ol>
 
-    </section>
-  </article>
+            </li>
+
+            <li class="timeline-item">
+              <div class="education-header">
+                <h4 class="h4 timeline-item-title">Notre Dame College, Dhaka</h4>
+                <span>2019</span>
+              </div>
+              <div class="education-header">
+                <h5 class="h5 timeline-item-subtitle">Higher Secondary Certificate (HSC)</h5>
+                <span>GPA: 5.00/5.00</span>
+              </div>
+              <p class="timeline-text">
+                Received board scholarship.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <div class="education-header">
+                <h4 class="h4 timeline-item-title">Saint Joseph Higher Secondary School, Dhaka</h4>
+                <span>2017</span>
+              </div>
+              <div class="education-header">
+                <h5 class="h5 timeline-item-subtitle">Secondary School Certificate (SSC)</h5>
+                <span>GPA: 5.00/5.00</span>
+              </div>
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+      </article>
 
       <!--
         - #PROJECTS
       -->
       <article class="projects" data-page="projects">
 
-    <header>
-      <h2 class="h2 article-title">Projects</h2>
-    </header>
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
 
-    <section class="blog-posts">
-      <ul class="blog-posts-list">
-        
-        
-          <li class="blog-post-item">
-            <figure class="blog-banner-box">
-              <img src="./assets/images/EduCare.png" alt="EduCare" loading="lazy">
-            </figure>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+
+
+            <li class="blog-post-item">
+              <figure class="blog-banner-box">
+                <img src="./assets/images/EduCare.png" alt="EduCare" loading="lazy">
+              </figure>
               <div class="blog-content">
                 <div class="blog-header">
                   <h3 class="h3 blog-item-title">EduCare</h3>
                   <div class="project-linkes">
-                    <a href="https://github.com/shahriar-raj/CSE_216-EduCare-Database-Sessional-Project" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/shahriar-raj/CSE_216-EduCare-Database-Sessional-Project" target="_blank"
+                      rel="noopener noreferrer">
                       <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    
+
                   </div>
                 </div>
                 <div class="">
                   🏷️
-                    
-                      <code class="tags">React</code>
-                      
-                    
-                      <code class="tags">Nodejs</code>
-                      
-                    
-                      <code class="tags">OracleDB</code>
-                      
-                    
-                  
-                    <span class="dot"></span>
-                     <!-- <br/> -->
-                     
+
+                  <code class="tags">React</code>
+
+
+                  <code class="tags">Nodejs</code>
+
+
+                  <code class="tags">OracleDB</code>
+
+
+
+                  <span class="dot"></span>
+                  <!-- <br/> -->
+
                   <time class="blog-text" datetime="2022">2022</time>
                 </div>
-                 <hr/> 
+                <hr />
 
                 <p class="blog-text">
-                  Designed and implemented a web app that manages institute&#39;s everything from students&#39; attendance to result management and so on. It also keeps track of the students&#39; progress and provides a platform for the teachers to communicate with the students and the guardians.
+                  Designed and implemented a web app that manages institute&#39;s everything from students&#39;
+                  attendance to result management and so on. It also keeps track of the students&#39; progress and
+                  provides a platform for the teachers to communicate with the students and the guardians.
                 </p>
               </div>
-          </li>
-        
-          <li class="blog-post-item">
-            <figure class="blog-banner-box">
-              <img src="./assets/images/PawCare.png" alt="PawCare" loading="lazy">
-            </figure>
+            </li>
+
+            <li class="blog-post-item">
+              <figure class="blog-banner-box">
+                <img src="./assets/images/PawCare.png" alt="PawCare" loading="lazy">
+              </figure>
               <div class="blog-content">
                 <div class="blog-header">
                   <h3 class="h3 blog-item-title">PawCare</h3>
                   <div class="project-linkes">
-                    <a href="https://github.com/shahriar-raj/PawCare_FrontEnd" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/shahriar-raj/PawCare_FrontEnd" target="_blank"
+                      rel="noopener noreferrer">
                       <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    
+
                   </div>
                 </div>
                 <div class="">
                   🏷️
-                    
-                      <code class="tags">Nodejs</code>
-                      
-                    
-                      <code class="tags">React</code>
-                      
-                    
-                      <code class="tags">PostgreSQL</code>
-                      
-                    
-                  
-                    <span class="dot"></span>
-                     <!-- <br/> -->
-                     
+
+                  <code class="tags">Nodejs</code>
+
+
+                  <code class="tags">React</code>
+
+
+                  <code class="tags">PostgreSQL</code>
+
+
+
+                  <span class="dot"></span>
+                  <!-- <br/> -->
+
                   <time class="blog-text" datetime="2023">2023</time>
                 </div>
-                 <hr/> 
+                <hr />
 
                 <p class="blog-text">
-                  Built an online PetCare Management System. It provides a platform for pet owners to find the best pet care services in their locality. It also provides a platform for pet care service providers to reach out to their customers. It also provides adoption services for pets.
+                  Built an online PetCare Management System. It provides a platform for pet owners to find the best pet
+                  care services in their locality. It also provides a platform for pet care service providers to reach
+                  out to their customers. It also provides adoption services for pets.
                 </p>
               </div>
-          </li>
-        
-          <li class="blog-post-item">
-            <figure class="blog-banner-box">
-              <img src="./assets/images/Player_Manage.png" alt="Player Management System (javaFX Project)" loading="lazy">
-            </figure>
+            </li>
+
+            <li class="blog-post-item">
+              <figure class="blog-banner-box">
+                <img src="./assets/images/Player_Manage.png" alt="Player Management System (javaFX Project)"
+                  loading="lazy">
+              </figure>
               <div class="blog-content">
                 <div class="blog-header">
                   <h3 class="h3 blog-item-title">Player Management System (javaFX Project)</h3>
                   <div class="project-linkes">
-                    <a href="https://github.com/shahriar-raj/CSE_108-Object-Oriented-Programming-Language-Sessional/tree/main/Term Project" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/shahriar-raj/CSE_108-Object-Oriented-Programming-Language-Sessional/tree/main/Term Project"
+                      target="_blank" rel="noopener noreferrer">
                       <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    
+
                   </div>
                 </div>
                 <div class="">
                   🏷️
-                    
-                      <code class="tags">JavaFX</code>
-                      
-                    
-                      <code class="tags">Java</code>
-                      
-                    
-                      <code class="tags">ScreenBuilder</code>
-                      
-                    
-                  
-                    <span class="dot"></span>
-                     <!-- <br/> -->
-                     
+
+                  <code class="tags">JavaFX</code>
+
+
+                  <code class="tags">Java</code>
+
+
+                  <code class="tags">ScreenBuilder</code>
+
+
+
+                  <span class="dot"></span>
+                  <!-- <br/> -->
+
                   <time class="blog-text" datetime="2021">2021</time>
                 </div>
-                 <hr/> 
+                <hr />
 
                 <p class="blog-text">
-                  Developed a small scale software using javafx and screenbuilder. Used java socket programming in the software.
+                  Developed a small scale software using javafx and screenbuilder. Used java socket programming in the
+                  software.
                 </p>
               </div>
-          </li>
-        
-          <li class="blog-post-item">
-            <figure class="blog-banner-box">
-              <img src="./assets/images/compiler.png" alt="C Compiler" loading="lazy">
-            </figure>
+            </li>
+
+            <li class="blog-post-item">
+              <figure class="blog-banner-box">
+                <img src="./assets/images/compiler.png" alt="C Compiler" loading="lazy">
+              </figure>
               <div class="blog-content">
                 <div class="blog-header">
                   <h3 class="h3 blog-item-title">C Compiler</h3>
                   <div class="project-linkes">
-                    <a href="https://github.com/shahriar-raj/CSE_310-Compiler-Sessional" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/shahriar-raj/CSE_310-Compiler-Sessional" target="_blank"
+                      rel="noopener noreferrer">
                       <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    
+
                   </div>
                 </div>
                 <div class="">
                   🏷️
-                    
-                      <code class="tags">Bison</code>
-                      
-                    
-                      <code class="tags">Yacc</code>
-                      
-                    
-                      <code class="tags">C</code>
-                      
-                    
-                  
-                    <span class="dot"></span>
-                     <!-- <br/> -->
-                     
+
+                  <code class="tags">Bison</code>
+
+
+                  <code class="tags">Yacc</code>
+
+
+                  <code class="tags">C</code>
+
+
+
+                  <span class="dot"></span>
+                  <!-- <br/> -->
+
                   <time class="blog-text" datetime="2023">2023</time>
                 </div>
-                 <hr/> 
+                <hr />
 
                 <p class="blog-text">
                   Built a compiler from scratch for a subset of C language.
                 </p>
               </div>
-          </li>
-        
+            </li>
 
-      </ul>
 
-    </section>
+          </ul>
 
-  </article>
+        </section>
+
+      </article>
 
       <!--
         - #RESEARCH
       -->
-      
+
       <article class="research" data-page="research">
 
-    <header>
-      <h2 class="h2 article-title">Research</h2>
-    </header>
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
 
-    <section class="timeline">
-      <ol class="timeline-list">
+        <section class="timeline">
+          <ol class="timeline-list">
 
-        
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Enhancing Road Damage Detection Through Transfer Learning and HCI-Centric Design</h4>
-            <h5 class="h5 timeline-item-subtitle-research"></h5>
-            
-                <h5 class="h5 timeline-item-subtitle-research">Co-authors: 
-                    
-                        Asad Bin Shahid Mahin
-                         , 
-                    
-                        Dr. Sadia Sharmin
-                        
-                    
-                </h5>
-            
-            
-                <h5 class="h5 timeline-item-subtitle-research">Keywords: 
-                    
-                        RDD
-                         , 
-                    
-                        Transfer Learning
-                         , 
-                    
-                        HCI
-                        
-                    
-                </h5>
-            
-              
-            <br>
-            <p class="timeline-text-bulletpoint">
-              Developed an automated road damage detection system using transfer learning on a locally annotated dataset, tailored for Bangladeshi conditions.  Integrated global Road Damage Dataset (RDD) standards and user feedback to improve detection accuracy and relevance. Incorporated Human-Computer Interaction (HCI) principles, ensuring user trust, transparency, and practical deployment potential.
-            </p>
-          </li>
-        
-          <li class="timeline-item">
-            <h4 class="h4 timeline-item-title">Skin Lesion Classification Using Deep Convolutional Neural Network</h4>
-            <h5 class="h5 timeline-item-subtitle-research"></h5>
-            
-                <h5 class="h5 timeline-item-subtitle-research">Co-authors: 
-                    
-                        Abrar Mahmud
-                        
-                    
-                </h5>
-            
-            
-                <h5 class="h5 timeline-item-subtitle-research">Keywords: 
-                    
-                        Skin Lesion
-                         , 
-                    
-                        CNN
-                         , 
-                    
-                        InceptionResNetV2
-                        
-                    
-                </h5>
-            
-              
-            <br>
-            <p class="timeline-text-bulletpoint">
-              Utilizing a base paper, which used ResNet50, DenseNet201, and Inception V3 with additional layers to classify 7 types of skin lesions with accuracy 86.91%. We achieved a 89.44% accuracy by using InceptionResNetV2.
-            </p>
-          </li>
-        
 
-      </ol>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Enhancing Road Damage Detection Through Transfer Learning and
+                HCI-Centric Design</h4>
+              <h5 class="h5 timeline-item-subtitle-research"></h5>
 
-    </section>
-  </article>
-      
+              <h5 class="h5 timeline-item-subtitle-research">Co-authors:
+
+                Asad Bin Shahid Mahin
+                ,
+
+                Dr. Sadia Sharmin
+
+
+              </h5>
+
+
+              <h5 class="h5 timeline-item-subtitle-research">Keywords:
+
+                RDD
+                ,
+
+                Transfer Learning
+                ,
+
+                HCI
+
+
+              </h5>
+
+
+              <br>
+              <p class="timeline-text-bulletpoint">
+                Developed an automated road damage detection system using transfer learning on a locally annotated
+                dataset, tailored for Bangladeshi conditions. Integrated global Road Damage Dataset (RDD) standards and
+                user feedback to improve detection accuracy and relevance. Incorporated Human-Computer Interaction (HCI)
+                principles, ensuring user trust, transparency, and practical deployment potential.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Skin Lesion Classification Using Deep Convolutional Neural Network</h4>
+              <h5 class="h5 timeline-item-subtitle-research"></h5>
+
+              <h5 class="h5 timeline-item-subtitle-research">Co-authors:
+
+                Abrar Mahmud
+
+
+              </h5>
+
+
+              <h5 class="h5 timeline-item-subtitle-research">Keywords:
+
+                Skin Lesion
+                ,
+
+                CNN
+                ,
+
+                InceptionResNetV2
+
+
+              </h5>
+
+
+              <br>
+              <p class="timeline-text-bulletpoint">
+                Utilizing a base paper, which used ResNet50, DenseNet201, and Inception V3 with additional layers to
+                classify 7 types of skin lesions with accuracy 86.91%. We achieved a 89.44% accuracy by using
+                InceptionResNetV2.
+              </p>
+            </li>
+
+
+          </ol>
+
+        </section>
+      </article>
+
       <!--
         - #PORTFOLIO
       -->
@@ -949,7 +1023,7 @@
 
       </article>
 
-     
+
 
     </div>
 
