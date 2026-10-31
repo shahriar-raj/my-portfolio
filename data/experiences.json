@@ -19,7 +19,8 @@
         "projects": [
             "Conducting lectures and laboratory sessions in computer science and engineering.",
             "Preparing teaching materials and practical exercises to explain computing concepts.",
-            "Assessing student performance and providing feedback to improve understanding and technical skills."
+            "Assessing student performance and providing feedback to improve understanding and technical skills.",
+            "Following the curriculum and ensuring that students meet outcome based learning objectives."
         ]
     },
     {
@@ -27,6 +28,8 @@
         "position": "Machine Learning Engineer",
         "duration": "May 2025 - Jul 2025",
         "description": "I worked as a Machine Learning Engineer at RIC, Bangladesh University of Engineering and Technology (BUET).",
-        "projects": []
+        "projects": [
+            "Collaborated with project instructors to develop a system for detecting dengue breeding sites—an initiative I believed could greatly support city corporations in their public health efforts. "
+        ]
     }
 ]
