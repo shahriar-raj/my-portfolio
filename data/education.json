@@ -1,7 +1,19 @@
 [
     {
         "institution": "Bangladesh University of Engineering and Technology",
-        "degree": "B.Sc. in Computer Science and Engineering",
+        "degree": "MSc. in Computer Science and Engineering",
+        "duration": "May 2025 - Present",
+        "gpa": "",
+        "description": "",
+        "courses": [
+            "Big Data Analytics",
+            "Advanced Bioinformatics",
+            "Advanced Human Computer Interaction"
+        ]
+    },
+    {
+        "institution": "Bangladesh University of Engineering and Technology",
+        "degree": "BSc. in Computer Science and Engineering",
         "duration": "February 2020 - March 2025",
         "gpa": "",
         "description": "",
