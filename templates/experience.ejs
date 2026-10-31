@@ -22,7 +22,7 @@
             </p>
             <% if(exp.projects && exp.projects.length > 0) { %>
                 <br/>
-                <p class="timeline-text">Some of my Notable works are:</p>
+                {% comment %} <p class="timeline-text">Some of my Notable works are:</p> {% endcomment %}
                 <div style="margin-left: 15px;"></div>
                 <ul>
                   <% exp.projects.forEach(function(project){ %>
