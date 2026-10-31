@@ -16,15 +16,18 @@ const education = fs.readFileSync('data/education.json', 'utf8');
 data.education = JSON.parse(education);
 // const achievements = fs.readFileSync('data/achievements.json', 'utf8');
 // data.achievements = JSON.parse(achievements);
-// const experiences = fs.readFileSync('data/experiences2.json', 'utf8');
-// data.experiences = JSON.parse(experiences);
+const experiences = fs.readFileSync('data/experiences2.json', 'utf8');
+data.experiences = JSON.parse(experiences);
 const projects = fs.readFileSync('data/projects.json', 'utf8');
 data.projects = JSON.parse(projects);
 const researches = fs.readFileSync('data/researches.json', 'utf8');
 data.researches = JSON.parse(researches);
 try {
     const template = fs.readFileSync('templates/index.ejs', 'utf8');
-    const html = ejs.render(template, data);
+    const path = require('path');
+    const html = ejs.render(template, data, {
+        filename: path.join(__dirname, 'templates', 'index.ejs')
+    });
     fs.writeFileSync('index.html', html);
 } catch (err) {
     console.log(err);
